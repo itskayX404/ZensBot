@@ -130,13 +130,13 @@ async function startNaze() {
                 }
 
                 if (anu.action == 'add') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Hai kak👋🏻 @${num.split("@")[0]} Selamat datang di ${metadata.subject}\nIntro dulu yuk\nNama:\nUmur:\Askot:\nJenis kelamin:\nSemoga betah ya🤗` })
                 } else if (anu.action == 'remove') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Leaving To ${metadata.subject}` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, contextInfo: { mentionedJid: [num] }, caption: `Selamat tinggal beban👋🏻@${num.split("@")[0]}` })
                 } else if (anu.action == 'promote') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Promote From ${metadata.subject}` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Telah menjadi admin @${num.split('@')[0]}` })
                 } else if (anu.action == 'demote') {
-                    naze.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Demote From ${metadata.subject}` })
+                    naze.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Telah menjadi member @${num.split('@')[0]}` })
               }
             }
         } catch (err) {
