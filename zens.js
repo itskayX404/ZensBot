@@ -601,7 +601,7 @@ Ketik *nyerah* untuk menyerah dan mengakui kekalahan`
             }
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/0b31865ef182a7681f9c3.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://saweria.co/\n\n*Atau Transfer via*\n- *Gopay Dana Ovo Qris ShopeePay*\n chat nomor berikut : wa.me/62895604670507\n\n_Terima kasih_` }, { quoted: m })
+                zens.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/0271f295214e747cb4445.jpg' }, caption: `*${ucapanWaktu} Kak ${m.pushName}*\n\n *Jika ingin berdonasi silahkan scan gambar diatas*\n\n*Jika ingin sewa bot atau premium*\n*Silahkan Chat Owner*\n\n*Atau klik link dibawah ini*\n_https://ga ada.com/\n\n*Atau Transfer via*\n- *Qris, Pulsa*\n chat nomor berikut : 6282180026483\n\n_Terima kasih_` }, { quoted: m })
             }
             break 
             case 'chat': {
@@ -2877,18 +2877,19 @@ zens.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {quo
 rules = `┌──⭓ *Rules BOT*
 │
 │ *No Spam & Telp❗*
-│ *No search & mendownload video/foto 18+
-│ *Jangan salah gunakan fitur bot!*
+│ *Kami tidak menyimpan gambar, foto, dan media lainnya yang kamu kirim*
 │ *Jangan gunakan bot untuk merugikan orang lain*
-│ *Owner tidak bertanggung jawab atas apa yg kamu lakukan pada bot ini*
+│ *Owner tidak bertanggung jawab atas apa yg kamu perintahkan pada bot ini*
 │ *Jika menemukan bug silahkan report ke owner dengan cara ketik report pada bot*
+│ 
+│ Hukuman jika melanggar rules\n│Bot akan memblokir kamu dan keluar dari grup yang kamu kelola
 │
 └───────𖦹Ꜥꜥ`
 let buttons = [{ buttonId: 'allmenu', buttonText: { displayText: '⌕ List Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '👑Sewa' }, type: 1 }]
             await zens.sendButtonText(m.chat, buttons, rules, nyoutube, m, {quoted: fkontak})
             }
             break
-            case 'sponsor': {
+            case 'isjsjsja': {
             if (!m.isGroup) throw mess.group
             let qontak = `6285718971848@s.whatsapp.net`
 let dana = `6281911500445@s.whatsapp.net`
